@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BottomNavigationFragment">
+
+    <FrameLayout
+        android:id="@+id/bn_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7">
+
+        <ImageButton
+            android:id="@+id/btEI"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5sp"
+            android:layout_weight="1"
+            android:src="@drawable/btn1"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/description" />
+
+        <ImageButton
+            android:id="@+id/btPL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5sp"
+            android:layout_weight="1"
+            android:src="@drawable/btn2"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/description"/>
+
+        <ImageButton
+            android:id="@+id/btSL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5sp"
+            android:layout_weight="1"
+            android:src="@drawable/btn3"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/description"/>
+
+        <ImageButton
+            android:id="@+id/btGL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5sp"
+            android:layout_weight="1"
+            android:src="@drawable/btn4"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/description"/>
+
+        <ImageButton
+            android:id="@+id/btDS"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5sp"
+            android:layout_weight="1"
+            android:src="@drawable/btn5"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/description"/>
+    </LinearLayout>
+
+</LinearLayout>
