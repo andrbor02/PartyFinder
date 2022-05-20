@@ -3,6 +3,7 @@ Functions:
 1) Change party info
 2) Change people and product list
 3) Debt splitter
+
 It's client-server app with email authentication.
 
 Java, Android SDK, Firebase. Single Activity.
